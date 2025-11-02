@@ -29,5 +29,5 @@ jobs:
       - name: Upload Maven Repository Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: maven-repository
+          name: maven-repository-api
           path: ~/.m2/repository/
